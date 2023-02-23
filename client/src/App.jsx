@@ -20,7 +20,8 @@ function App() {
 
   const fetchBotResponse = async () => {
     const { data } = await axios.post(
-      "http://localhost:4000/",
+      // "http://localhost:4000/",
+      "https://chat-gpt-qyu6.onrender.com",
       { input },
       {
         headers: {
